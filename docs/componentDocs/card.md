@@ -4,7 +4,7 @@
 
 ### example
 
-<card imgSrc="/1.jpg" summary="test" />
+<card imgSrc="/licoUI/1.jpg" summary="test" />
 
 ### code
 
