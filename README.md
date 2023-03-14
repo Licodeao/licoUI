@@ -1,24 +1,23 @@
-# lico-ui
+# lico-ui 组件库
 
-## Project setup
-```
-npm install
-```
+### 快速开始
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+#### 1.安装组件库
+
+```bash
+npm i lico-ui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### 2.引用组件库
 
-### Lints and fixes files
-```
-npm run lint
-```
+```javascript
+// 全部引入
+import "lico-ui/dist/css/index.css";
+import LUI from "lico-ui";
+Vue.use(LUI);
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// 按需引用
+import "lico-ui/dist/css/demo.css";
+import { Demo } from "lico-ui";
+Vue.use(Demo);
+```
